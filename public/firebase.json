@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "calander",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+.date {
+    color: red;
+}
+.cal table tr th {
+    padding: 5px;
+}
+.cal table tr td {
+    padding: 5px;
+}
+.heading {
+    margin-left: 100px;
+    /* margin-bottom: -5px; */
+    color:blue;
+    /* opacity: 0.9; */
+}
+.calander {
+    overflow: scroll;
+    /* display: flex; */
+    margin-left:  30%;
+    border: 2px solid gray;
+}
+.cal {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#row1 {
+    display: flex;
+}
+@font-face {
+    font-family: lobster;
+    src: url(font/Lobster-Regular.ttf);
+}
+.cal_heading {
+    font-family: lobster;
+    font-size:xx-large;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    color: darkgray;
+    box-shadow: 10px 10px 10px ;
+}
+body {
+    background-color:ghostwhite;
+    
+    
+}
+.image img {
+    width: 360px;
+    padding: 30px;
+    border-radius: 50%;
+   
+}
+body {
+    position:relative;
+}
+.cal_image {
+    position:absolute;
+    top: 40px;
+    left: 0;
+}
